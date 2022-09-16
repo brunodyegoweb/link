@@ -1,5 +1,38 @@
 body {
     background: black;
-    font-family: normal 18pt Arial, Helvetica, sans-serif;
+    color: white;
+    font: normal 15pt Arial;
+}
+
+nav#menu ul {   
+    display: block;
+    position: absolute;
+    text-transform: uppercase;
+    top: 10px;
+    left: 900px;
+}
+
+nav#menu li {
+    list-style: none;
+    display: inline-block;
+    background-color: rgb(139, 2, 2);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 2px;
+    transition: background-color 1.5s;
+}
+
+nav#menu a {
+    color: white;
+    text-decoration: none;
+}
+
+nav#menu li:hover {
+    background: red;
+}
+
+nav#menu a:hover {
+    color: black;
+    text-decoration: underline;
 }
 
